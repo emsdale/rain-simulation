@@ -1,4 +1,3 @@
-# rain-simulation
 //open array in use
 let drops = [];
 
@@ -25,14 +24,14 @@ function draw() {
     let drop = drops[i];
     drop.y += drop.speed;
     
-    // when drop goes below canvas restart above 
+  // when drop goes below canvas restart above 
     if (drop.y > height) {
       drop.y = random(20, -height);
       drop.x = random(width);
     }
     // raindrop stroke
     
-    stroke('#1896CF');
+  stroke('#1896CF');
     line(drop.x, drop.y, drop.x, drop.y + 10);
     
       
