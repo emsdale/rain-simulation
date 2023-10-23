@@ -1,5 +1,4 @@
 # rain-simulation
-canvas that generates rain like imagery
 //open array in use
 let drops = [];
 
